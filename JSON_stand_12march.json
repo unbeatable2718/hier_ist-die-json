@@ -75,12 +75,37 @@
         {
             "resource": {
                 "type": "static",
-                "name": "CNC",
+                "name": "Mounting",
                 "x_coordinate": "50",
                 "y_coordinate": "200",
                 "width": "100",
                 "height": "60",
-                "status": "finished",
+                "status": "available",
+                "capabilities": [
+                    {
+                        "variable_name": "Variable1",
+                        "variable_type": "None",
+                        "variable_value": "42",
+                        "relational_operator": ">"
+                    },
+                    {
+                        "variable_name": "Variable3",
+                        "variable_type": "None",
+                        "variable_value": "100",
+                        "relational_operator": "<"
+                    }
+                ]
+            }
+        },    
+        {
+            "resource": {
+                "type": "static",
+                "name": "Coating",
+                "x_coordinate": "250",
+                "y_coordinate": "300",
+                "width": "80",
+                "height": "80",
+                "status": "inactive",
                 "capabilities": [
                     {
                         "variable_name": "Variable1",
@@ -101,36 +126,11 @@
             "resource": {
                 "type": "static",
                 "name": "CNC",
-                "x_coordinate": "50",
-                "y_coordinate": "200",
+                "x_coordinate": "450",
+                "y_coordinate": "50",
                 "width": "100",
                 "height": "60",
-                "status": "finished",
-                "capabilities": [
-                    {
-                        "variable_name": "Variable1",
-                        "variable_type": "None",
-                        "variable_value": "42",
-                        "relational_operator": ">"
-                    },
-                    {
-                        "variable_name": "Variable3",
-                        "variable_type": "None",
-                        "variable_value": "100",
-                        "relational_operator": "<"
-                    }
-                ]
-            }
-        },    
-        {
-            "resource": {
-                "type": "static",
-                "name": "CNC",
-                "x_coordinate": "50",
-                "y_coordinate": "200",
-                "width": "100",
-                "height": "60",
-                "status": "finished",
+                "status": "error",
                 "capabilities": [
                     {
                         "variable_name": "Variable1",
