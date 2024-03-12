@@ -3,7 +3,7 @@
         {
             "resource": {
                 "type": "transport",
-                "name": "1",
+                "name": "2",
                 "x_coordinate": "300",
                 "y_coordinate": "50",
                 "radius": "13",
