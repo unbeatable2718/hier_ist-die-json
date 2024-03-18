@@ -152,7 +152,7 @@
                 "type": "static",
                 "name": "Warehouse",
                 "x_coordinate": "450",
-                "y_coordinate": "320",
+                "y_coordinate": "30",
                 "width": "150",
                 "height": "80",
                 "status": "available",
