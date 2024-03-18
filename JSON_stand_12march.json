@@ -146,6 +146,31 @@
                     }
                 ]
             }
+        },
+        {
+            "resource": {
+                "type": "static",
+                "name": "Warehouse",
+                "x_coordinate": "450",
+                "y_coordinate": "320",
+                "width": "150",
+                "height": "68",
+                "status": "available",
+                "capabilities": [
+                    {
+                        "variable_name": "Variable1",
+                        "variable_type": "None",
+                        "variable_value": "42",
+                        "relational_operator": ">"
+                    },
+                    {
+                        "variable_name": "Variable3",
+                        "variable_type": "None",
+                        "variable_value": "100",
+                        "relational_operator": "<"
+                    }
+                ]
+            }
         }
     ]
 }
