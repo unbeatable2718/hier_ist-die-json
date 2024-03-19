@@ -2,7 +2,7 @@
     "shopfloor": [
         {
             "resource": {
-                "type": "transport",
+                "static": false,
                 "name": "2",
                 "x_coordinate": "300",
                 "y_coordinate": "50",
@@ -26,7 +26,7 @@
         },
         {
             "resource": {
-                "type": "transport",
+                "static": false,
                 "name": "2",
                 "x_coordinate": "240",
                 "y_coordinate": "100",
@@ -50,7 +50,7 @@
         },
         {
             "resource": {
-                "type": "transport",
+                "static": false,
                 "name": "3",
                 "x_coordinate": "280",
                 "y_coordinate": "90",
@@ -74,7 +74,7 @@
         },
         {
             "resource": {
-                "type": "static",
+                "static": true,
                 "name": "Mounting",
                 "x_coordinate": "50",
                 "y_coordinate": "200",
@@ -99,7 +99,7 @@
         },    
         {
             "resource": {
-                "type": "static",
+                "static": true,
                 "name": "Coating",
                 "x_coordinate": "250",
                 "y_coordinate": "300",
@@ -124,7 +124,7 @@
         },    
         {
             "resource": {
-                "type": "static",
+                "static": "true",
                 "name": "CNC",
                 "x_coordinate": "450",
                 "y_coordinate": "50",
@@ -149,7 +149,7 @@
         },
         {
             "resource": {
-                "type": "static",
+                "static": true,
                 "name": "Warehouse",
                 "x_coordinate": "450",
                 "y_coordinate": "320",
