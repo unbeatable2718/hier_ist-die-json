@@ -124,7 +124,7 @@
         },    
         {
             "resource": {
-                "static": "true",
+                "static": true,
                 "name": "CNC",
                 "x_coordinate": "450",
                 "y_coordinate": "50",
